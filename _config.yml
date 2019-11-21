@@ -20,40 +20,20 @@ people:
     - title: stack-overflow
       url: #
 
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
-
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
-
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
+    url: https://twitter.com/flydsnts
   - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
+    url: htttps://facebook.com/floyd.santos
+  - title: instagram 
+    url: http://instagram.com/flydsnts
+  - title: linkedin
+    url: https://www.linkedin.com/in/floyd-santos-138603b3/
   - title: github
-    url: http://github.com/jekyll
+    url: http://github.com/doodpls
+  - title: stack-overflow
+    url: https://stackoverflow.com/users/3978964/doodpls
 
 # Postal address (add as many lines as necessary)
 address:
