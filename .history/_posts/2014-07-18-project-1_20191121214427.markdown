@@ -1,0 +1,12 @@
+---
+title: Weather App
+subtitle: API data utilization
+layout: default
+modal-id: 1
+html: http://theweathering.netlify.com
+thumbnail: weather.jpg
+project-date: October 2919
+category: Javascript
+description: It's one of our assingment on our Javascript course, where we use an API then utilize it to display its data.
+
+---

@@ -1,0 +1,37 @@
+.html-inner{
+  border: 10px;
+  height: 600px;
+  width: 650px;
+}
+
+.modal-body{
+  width: auto;
+}
+
+@media only screen and (max-width: 770px) {
+  .html-inner{
+    width: 85vw;
+  }
+}
+@media only screen and (max-width: 530px) {
+  .modal-body{
+    padding: 0;
+  }
+}
+
+.navbar-brand.page-scroll{
+  color: white;
+}
+
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+  background: #424242e6; /* Fallback when no plugin support */
+  background: #424242e6;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    color: #424242e6;
+}

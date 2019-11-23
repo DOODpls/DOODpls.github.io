@@ -1,0 +1,52 @@
+.html-inner{
+  border: 10px;
+  height: 600px;
+  width: 650px;
+}
+
+.modal-body{
+  width: auto;
+}
+
+@media only screen and (max-width: 770px) {
+  .html-inner{
+    width: 85vw;
+  }
+}
+@media only screen and (max-width: 530px) {
+  .modal-body{
+    padding: 0;
+  }
+}
+
+.navbar-brand.page-scroll{
+  color: white;
+}
+
+
+.btn-xl.disabled,
+.btn-xl[disabled],
+fieldset[disabled] .btn-xl,
+.btn-xl.disabled:hover,
+.btn-xl[disabled]:hover,
+fieldset[disabled] .btn-xl:hover,
+.btn-xl.disabled:focus,
+.btn-xl[disabled]:focus,
+fieldset[disabled] .btn-xl:focus,
+.btn-xl.disabled:active,
+.btn-xl[disabled]:active,
+fieldset[disabled] .btn-xl:active,
+.btn-xl.disabled.active,
+.btn-xl[disabled].active,
+fieldset[disabled] .btn-xl.active {
+    border-color: #fed136;
+    background-color: #fed136;
+}
+
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    color: #424242e6;
+}

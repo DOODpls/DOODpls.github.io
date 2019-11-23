@@ -1,0 +1,33 @@
+.html-inner{
+  border: 10px;
+  height: 600px;
+  width: 650px;
+}
+
+.modal-body{
+  width: auto;
+}
+
+@media only screen and (max-width: 770px) {
+  .html-inner{
+    width: 85vw;
+  }
+}
+@media only screen and (max-width: 530px) {
+  .modal-body{
+    padding: 0;
+  }
+}
+
+.navbar-brand.page-scroll{
+  color: white;
+}
+
+.active{
+  background: black;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+  background: rgba(68, 169, 252, 0.9); /* Fallback when no plugin support */
+  background: rgba(66, 66, 66, 0.9);
+}

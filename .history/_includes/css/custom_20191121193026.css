@@ -1,0 +1,9 @@
+.html-inner{
+  border: 10px;
+  height: 600px;
+  width: 800px;
+}
+
+.modal-body{
+  width: auto;
+}

@@ -1,0 +1,44 @@
+.html-inner{
+  border: 10px;
+  height: 600px;
+  width: 650px;
+}
+
+.modal-body{
+  width: auto;
+}
+
+@media only screen and (max-width: 770px) {
+  .html-inner{
+    width: 85vw;
+  }
+}
+@media only screen and (max-width: 530px) {
+  .modal-body{
+    padding: 0;
+  }
+}
+
+.navbar-brand.page-scroll{
+  color: white;
+}
+
+
+.btn-xl {
+  padding: 20px 40px;
+  border-color: #424242e6;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #424242e6;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    color: #424242e6;
+}

@@ -1,0 +1,10 @@
+.html-inner{
+  border: 10px;
+  height: 600px;
+  width: 800px;
+  z-index: 1;
+}
+
+.modal-body{
+  width: auto;
+}

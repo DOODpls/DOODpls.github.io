@@ -1,6 +1,6 @@
 ---
 title: Photograpiya
-subtitle: HTML and CSS showcase
+subtitle: HTML and CSS
 layout: default
 modal-id: 2
 html: https://photograpiya.netlify.com
