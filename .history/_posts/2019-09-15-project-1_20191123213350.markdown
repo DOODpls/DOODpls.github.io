@@ -1,0 +1,12 @@
+---
+title: Photograpiya
+subtitle: HTML and CSS showcase
+layout: default
+modal-id: 1
+html: https://photograpiya.netlify.com
+thumbnail: photograpiya.jpg
+project-date: september 2019
+category: HTML and CSS
+description: It's another one of our assignment which showcase our use of flexbox, grids and media queries.
+
+---

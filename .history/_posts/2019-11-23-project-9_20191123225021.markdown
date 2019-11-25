@@ -1,0 +1,12 @@
+---
+title: Additional Content 1.
+subtitle: Watch my Dirt 4 gameplay.
+layout: default
+modal-id: 9
+html: https://doodpls.github.io
+thumbnail: portfolio.jpg
+project-date: november 2019
+category: Extras
+description: So i can do the pagination thingy.
+
+---

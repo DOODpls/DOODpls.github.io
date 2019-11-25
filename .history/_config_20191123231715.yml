@@ -1,0 +1,37 @@
+url: https://doodpls.github.io
+baseurl: ""
+
+# Site settings
+title: Floyd Santos
+email: floyd_santos64@yahoo.com
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+
+plugins:
+  - jekyll-paginate
+
+paginate: 5
+paginate_path: "/blog/page:num/"
+# Team names, titles and social links
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/flydsnts
+  - title: facebook
+    url: htttps://facebook.com/floyd.santos
+  - title: instagram 
+    url: http://instagram.com/flydsnts
+  - title: linkedin
+    url: https://www.linkedin.com/in/floyd-santos-138603b3/
+  - title: github
+    url: http://github.com/doodpls
+  - title: stack-overflow
+    url: https://stackoverflow.com/users/3978964/doodpls
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 3481 Melrose Place
+  - line: Beverly Hills, CA 90210
+
+# Build settings
+markdown: kramdown
+permalink: pretty

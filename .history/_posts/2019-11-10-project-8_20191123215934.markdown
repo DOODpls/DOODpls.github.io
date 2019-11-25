@@ -1,0 +1,12 @@
+---
+title: Jekyll!
+subtitle: How to use a CMS.
+layout: default
+modal-id: 7
+html: https://doodpls.github.io
+thumbnail: jekyll.jpg
+project-date: november 2019
+category: Wordpress
+description: This shows how we can use, and customize a CMS theme.
+
+---

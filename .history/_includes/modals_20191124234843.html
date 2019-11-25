@@ -1,0 +1,54 @@
+ <!-- Portfolio Modals -->
+ {% for post in site.posts %}
+    <div class="portfolio-modal modal fade" id="portfolioModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <a href="{{ post.html }}"><h2>{{ post.title }}</h2></a>
+                            <hr class="star-primary">
+                            <iframe src="{{ post.html }}" frameborder="0" class="html-inner"></iframe>
+                            <p>{{ post.description }}</p>
+                            <ul class="list-inline item-details">
+                                <li>Date:
+                                    <strong>{{ post.project-date }}
+                                    </strong>
+                                </li>
+                                <li>Technology:
+                                    <strong>{{ post.category }}
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="disqus-comments">
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+          /* <![CDATA[ */
+          var disqus_shortname = "{{ site.disqus_shortname }}";
+          var disqus_identifier = "{{ site.url }}_{{ page.title }}";
+          var disqus_title = "{{ page.title }}";
+      
+          /* * * DON'T EDIT BELOW THIS LINE * * */
+          (function() {
+              var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+              dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+          /* ]]> */
+        </script>
+      </div>
+    
+{% endfor %}

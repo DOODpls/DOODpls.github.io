@@ -1,0 +1,12 @@
+---
+title: Tiles!
+subtitle: forEach and Sort
+layout: default
+modal-id: 4
+html: https://jstiles.netlify.com
+thumbnail: tiles.jpg
+project-date: october 2019
+category: Javascript and CSS
+description: This is where we showcase our skill on populating div with tiles using forEach loop and sorting it.
+
+---

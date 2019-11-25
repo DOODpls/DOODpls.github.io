@@ -1,0 +1,12 @@
+---
+title: Mobile Menu
+subtitle: A responsive navigation menu.
+layout: default
+modal-id: 4
+html: https://jsmobilemenu.netlify.com
+thumbnail: tiles.jpg
+project-date: october 2019
+category: javascript and css
+description: This is where we showcase our skill on populating div with tiles using forEach loop and sorting it.
+
+---
