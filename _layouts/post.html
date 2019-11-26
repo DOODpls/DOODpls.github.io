@@ -1,24 +1,28 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
 
-<!-- Blog Post Breadcrumbs -->
-{%- include blog_post_breadcrumb.html -%}
+  {% include head.html %}
 
-<div class="row">
+
+    <body id="page-top" class="index">
+
+    {% include header.html %}
+      
+
+      <div class="row">
 
         <div class="col-lg-8">
     
            {%- include blog_post_article.html -%}
 
-           {%- include blog_post_comments.html -%}
         </div>
- 
-           {%- include blog_sidebar.html -%}
-
-
         
-</div> <!-- End of row-->
-    
+      </div> <!-- End of row-->
 
-    
+
+    {% include footer.html %}
+    {% include modals.html %}
+    {% include js.html %}
+
+    </body>
+</html>

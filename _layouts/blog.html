@@ -7,32 +7,41 @@
     <body id="page-top" class="index">
 
     {% include header.html %}
+<div class="row">
+  <div class="col-lg-8 col-md-4">
+
+    <!-- Blog Posts -->
+
     <div class="row">
- 
-      <div class="col-lg-8 col-md-4">
-              <!-- Blog Posts -->
-           <ul >
-              <div class="row">
-                  {% for post in paginator.posts %}
-                  <div class="card blog-post">
-                      <img class="card-img-top" src="/assets/img/posts/{{ post.thumbnail }}" alt="{{ post.title }}">
-                      <div class="card-body center">
-                          <img src="/assets/img/{{ site.author_logo }}" class="author-profile-img">
-                          <h4 class="card-title">{{ post.title }}</h4>
-
-                          <h6 class="card-subtitle mb-2 text-muted">{{ post.date | date: "%b %-d, %Y" }}</h6>
-                          <p class="card-text">{{ post.summary }} </p>
-
-                          <a href="{{ post.url | prepend: site.baseurl }}" data-disqus-identifier="{{ post.url }}" class="btn btn-primary btn-lg">Read</a>
-                          <span class="disqus-comment-count" data-disqus-identifier="{{ post.url }}"></span>
-
-                      </div>
-                  </div>
-
-                  {% endfor %}
-              </div>
-          </ul> 
-
+      <div class="col-md-2 col-md-offset-3">
+        <section id="portfolio">
+          <div class="container">
+            <div class="row">
+                <ul>
+                    <div class="row">
+                        {% for post in paginator.posts %}
+                        <div class="card blog-post">
+                          <div class="card-body center">
+                            <div class="col-md-4 col-sm-6 portfolio-item">
+                                <img src="/assets/img/posts/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
+                                <div class="portfolio-caption">
+                                  <a href="{{ post.url | prepend: site.baseurl }}" data-disqus-identifier="{{ post.url }}" class="portfolio-link" data-toggle="modal">
+                                    <h4>{{ post.title }}</h4>
+                                  </a>
+                                  <p class="text-muted">{{ post.summary }}</p>
+                                  <h6 class="card-subtitle mb-2 text-muted">{{ post.date | date: "%b %-d, %Y" }}</h6>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                  </ul> 
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
 
     <div class="row center">
       <!-- Pagination links -->
@@ -52,7 +61,7 @@
             {% elsif page == 1 %}
               <li><a href="/blog/">{{ page }}</a></li>
             {% else %}
-              <li><a href="/blog{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+              <li><a href="/blog{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', '/' }}{{page}}">{{ page }}</a></li>
             {% endif %}
           {% endfor %}
     
@@ -65,12 +74,11 @@
           {% endif %}
         </ul>
       {% endif %}
+    </div>
   </div>
-      
 </div>
 
 
-          {%- include blog_sidebar.html -%}
       </div>
     {% include footer.html %}
     {% include modals.html %}
