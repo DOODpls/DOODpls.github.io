@@ -6,7 +6,7 @@ modal-id: 2
 html: https://photograpiya.netlify.com
 thumbnail: photograpiya.jpg
 project-date: september 2019
-category: HTML and CSS
+category: [html, css]
 description: It's another one of our assignment which showcase our use of flexbox, grids and media queries.
 
 ---

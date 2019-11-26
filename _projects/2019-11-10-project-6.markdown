@@ -6,7 +6,7 @@ modal-id: 6
 html: https://blog-secret.herokuapp.com/
 thumbnail: darkblogs.jpg
 project-date: november 2019
-category: Nodejs and Javascript
+category: [nodejs, javascript]
 description: Showcase our skill on routing, doing slug, mongodb, mongoose. and encryption.
 
 ---

@@ -6,7 +6,7 @@ modal-id: 8
 html: https://doodpls.github.io
 thumbnail: portfolio.jpg
 project-date: november 2019
-category: Wordpress
+category: [cms]
 description: This shows how we can use, and customize a static CMS like Jekyll.
 
 ---

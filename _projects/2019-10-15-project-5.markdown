@@ -6,7 +6,7 @@ modal-id: 5
 html: https://jsmobilemenu.netlify.com
 thumbnail: mobile.jpg
 project-date: october 2019
-category: Javascript and CSS
+category: [javascript, css]
 description: This is where made a website mobile friendly by building a hamburger menu.
 
 ---

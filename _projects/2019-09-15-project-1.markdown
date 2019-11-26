@@ -6,7 +6,7 @@ modal-id: 1
 html: https://techhome.netlify.com/
 thumbnail: homepage.jpg
 project-date: september 2019
-category: HTML and CSS
+category: [html, css]
 description: One of our first project, we got ask to make a website with 4 sections, and have it linked on the nav bar.
 
 ---

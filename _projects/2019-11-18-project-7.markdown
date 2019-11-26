@@ -6,7 +6,7 @@ modal-id: 7
 html: https://dev-macewan-university.pantheonsite.io/
 thumbnail: mcewan.jpg
 project-date: november 2019
-category: Wordpress
+category: [cms]
 description: This shows how we can use, and customize a CMS theme.
 
 ---

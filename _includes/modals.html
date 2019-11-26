@@ -1,6 +1,6 @@
  <!-- Portfolio Modals -->
- {% for post in site.posts %}
-    <div class="portfolio-modal modal fade" id="portfolioModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+ {% for project in site.projects %}
+    <div class="portfolio-modal modal fade" id="portfolioModal{{ project.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -12,17 +12,17 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <a href="{{ post.html }}"><h2>{{ post.title }}</h2></a>
+                            <a href="{{ project.html }}"><h2>{{ project.title }}</h2></a>
                             <hr class="star-primary">
-                            <iframe src="{{ post.html }}" frameborder="0" class="html-inner"></iframe>
-                            <p>{{ post.description }}</p>
+                            <iframe src="{{ project.html }}" frameborder="0" class="html-inner"></iframe>
+                            <p>{{ project.description }}</p>
                             <ul class="list-inline item-details">
                                 <li>Date:
-                                    <strong>{{ post.project-date }}
+                                    <strong>{{ project.project-date }}
                                     </strong>
                                 </li>
                                 <li>Technology:
-                                    <strong>{{ post.category }}
+                                    <strong>{{ project.category }}
                                     </strong>
                                 </li>
                             </ul>

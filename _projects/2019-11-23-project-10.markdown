@@ -6,7 +6,7 @@ modal-id: 10
 html: https://doodpls.github.io
 thumbnail: portfolio.jpg
 project-date: november 2019
-category: Extras
+category: [extras]
 description: So i can do the pagination thingy.
 
 ---
