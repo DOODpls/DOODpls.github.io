@@ -3,7 +3,7 @@ title: Photograpiya
 subtitle: HTML and CSS showcase
 layout: default
 modal-id: 2
-htmlprv: https://preview.redd.it/46inckhyt9141.gif?format=mp4&s=a9bf6055aa6af139a376d1cf759124c76a7c5a35
+htmlprv: https://photograpiya.netlify.com
 html: https://photograpiya.netlify.com
 thumbnail: photograpiya.jpg
 project-date: september 2019

@@ -3,7 +3,7 @@ title: Jekyll!
 subtitle: How to use a CMS.
 layout: default
 modal-id: 8
-htmlprv: https://preview.redd.it/nuh5d6cv0a141.gif?format=mp4&s=18844e5e88f8ed8d9909bcb4df043e1633327669
+htmlprv: https://doodpls.github.io
 html: https://doodpls.github.io
 thumbnail: portfolio.jpg
 project-date: november 2019

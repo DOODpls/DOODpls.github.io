@@ -3,7 +3,7 @@ title: Weather App
 subtitle: API data utilization
 layout: default
 modal-id: 3
-htmlprv: https://preview.redd.it/06a8y939r9141.gif?format=mp4&s=234d79afc77e4c0b93b171a315e561f217ec4c8f
+gif: https://preview.redd.it/06a8y939r9141.gif?format=mp4&s=234d79afc77e4c0b93b171a315e561f217ec4c8f
 html: http://theweathering.netlify.com
 thumbnail: weather.jpg
 project-date: October 2019
