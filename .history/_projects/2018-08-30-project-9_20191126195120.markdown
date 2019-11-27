@@ -1,0 +1,12 @@
+---
+title: Dirt 4 Gameplay.
+subtitle: Watch my Dirt 4 gameplay.
+layout: default
+modal-id: 9
+html: https://www.youtube.com/embed/W5QhtBotqf8
+thumbnail: dirt.jpg
+project-date: August 2018
+category: Extras
+description: So i can do the pagination thingy.
+
+---

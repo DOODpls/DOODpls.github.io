@@ -1,0 +1,12 @@
+---
+title: O-Ring review
+subtitle: A comparison of with and without it.
+layout: default
+modal-id: 10
+html: https://www.youtube.com/watch?v=6SZWgkYSvEo
+thumbnail: oring.jpg
+project-date: August 2018
+category: Extras
+description: This is a recorded gameplay that i did.
+
+---

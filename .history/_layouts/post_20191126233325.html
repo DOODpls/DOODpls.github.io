@@ -1,0 +1,36 @@
+---
+layout: default
+comments: true
+# other options
+---
+
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+
+    <body id="page-top" class="index">
+
+    {% include header.html %}
+      
+
+      <div class="text-center padinggg">
+
+        <div class="text-center">
+    
+           {%- include blog_post_article.html -%}
+
+           {%- include blog_post_comments.html -%}
+
+        </div>
+        
+      </div> <!-- End of row-->
+
+
+    {% include footer.html %}
+    {% include modals.html %}
+    {% include js.html %}
+
+    </body>
+</html>
