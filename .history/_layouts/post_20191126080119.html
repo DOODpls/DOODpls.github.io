@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+
+    <body id="page-top" class="index">
+
+    {% include header.html %}
+      
+      <!-- Blog Post Breadcrumbs -->
+      {%- include blog_post_breadcrumb.html -%}
+
+      <div class="row">
+
+        <div class="col-lg-8">
+    
+           {%- include blog_post_article.html -%}
+
+           {%- include blog_post_comments.html -%}
+        </div>
+ 
+           {%- include blog_sidebar.html -%}
+        
+      </div> <!-- End of row-->
+
+
+    {% include footer.html %}
+    {% include modals.html %}
+    {% include js.html %}
+
+    </body>
+</html>

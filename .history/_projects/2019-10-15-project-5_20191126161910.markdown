@@ -1,0 +1,12 @@
+---
+title: Mobile Menu
+subtitle: A responsive navigation menu.
+layout: default
+modal-id: 5
+html: 
+thumbnail: mobile.jpg
+project-date: october 2019
+category: [javascript, css]
+description: This is where made a website mobile friendly by building a hamburger menu.
+
+---

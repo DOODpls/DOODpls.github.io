@@ -1,0 +1,12 @@
+---
+title: Dark Blogs
+subtitle: Nodejs and Javascript
+layout: default
+modal-id: 6
+html: 
+thumbnail: darkblogs.jpg
+project-date: november 2019
+category: [nodejs, javascript]
+description: Showcase our skill on routing, doing slug, mongodb, mongoose. and encryption.
+
+---

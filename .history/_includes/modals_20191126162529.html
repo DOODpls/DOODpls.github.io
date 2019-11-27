@@ -1,0 +1,36 @@
+ <!-- Portfolio Modals -->
+ {% for project in site.projects %}
+    <div class="portfolio-modal modal fade" id="portfolioModal{{ project.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <a href="{{ project.html }}"><h2>{{ project.title }}</h2></a>
+                            <hr class="star-primary">
+                            <iframe src="{{  }}" frameborder="0" class="html-inner"></iframe>
+                            <p>{{ project.description }}</p>
+                            <ul class="list-inline item-details">
+                                <li>Date:
+                                    <strong>{{ project.project-date }}
+                                    </strong>
+                                </li>
+                                <li>Technology:
+                                    <strong>{{ project.category }}
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}

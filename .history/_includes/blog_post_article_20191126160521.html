@@ -1,0 +1,34 @@
+<div class="close-modal" data-dismiss="modal">
+    <div class="lr">
+        <div class="rl">
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+                <article class="card" itemscope itemtype="http://schema.org/BlogPosting">
+                <div class="card-header">
+                    <!-- <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1> -->
+                    <h4 class="post-meta">{{ page.summary }}</h4>
+                    <p class="post-summary">Posted by : {% if page.author %}
+                        <img src="/assets/img/{{ site.author_logo }}" class="author-profile-img">
+                        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                            <span itemprop="name">{{ page.author }}</span>
+                        </span>{% endif %} at
+                        <time datetime="{{ page.date }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+                    </p>
+                </div>
+
+                <div class="card-body" itemprop="articleBody">
+                    <img class="card-img-top" src="/assets/img/posts/{{ page.thumbnail }}" alt="{{ post.title }}"> 
+                    <br/> <br/>
+                    {{ content }} 
+                </div>
+
+                <div id="disqus_thread"></div>
+
+            </article>
+        </div>
+    </div>
+</div>
