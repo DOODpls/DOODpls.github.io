@@ -8,6 +8,6 @@ html: https://www.youtube.com/embed/6SZWgkYSvEo
 thumbnail: oring.jpg
 project-date: August 2018
 category: Extras
-description: This is a recorded gameplay that i did.
+description: A review of O-Rings that i bought online.
 
 ---
