@@ -269,7 +269,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
+    background-image: url('https://scx2.b-cdn.net/gfx/news/hires/2019/space.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
