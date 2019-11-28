@@ -1,4 +1,4 @@
-## https://https://floydsantos.netlify.com/
+## https://floydsantos.netlify.com/
 
 
 Agency Jekyll theme
