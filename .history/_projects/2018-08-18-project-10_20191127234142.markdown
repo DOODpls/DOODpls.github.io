@@ -1,0 +1,13 @@
+---
+title: O-Ring review
+subtitle: A comparison of with and without it.
+layout: default
+modal-id: 10
+htmlprv: https://www.youtube.com/embed/6SZWgkYSvEo
+html: https://www.youtube.com/embed/6SZWgkYSvEo
+thumbnail: oring.jpg
+project-date: August 2018
+category: Extras
+description: A review of O-Rings that i bought online.
+
+---
